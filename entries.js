@@ -11,6 +11,10 @@ const addEntry = function(id, code) {
 category = 'aliases'
 addEntry('just', 'alias just="sudo"')
 addEntry('ddos', 'alias ddos="ping"')
+addEntry('dogtac', '# <a href="https://twitter.com/arinerron/status/'+
+                   '774490796212965376">thanks!</a>\n' +
+                   'alias dog=cat\n' +
+                   'alias god=tac')
 
 // TODO: make <pre>fixer.js better, should be able to just accept text!
 // because template/multiline strings!!!!!
